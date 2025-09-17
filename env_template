@@ -1,0 +1,6 @@
+
+ABUSEIPDB_KEY=your_abuseipdb_key_here
+INPUT_FILE=data/indicators.txt
+OUTPUT_FILE=data/enrichment.csv
+SLEEP_TIME=1                 # seconds between API requests
+ABUSE_SCORE_THRESHOLD=50     # threshold to flag IPs as suspicious
